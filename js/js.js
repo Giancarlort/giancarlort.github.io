@@ -3,14 +3,14 @@ $(document).ready(function() {
 
 
     /***************************** Estilo scroll ******************************/
-    var $document_body = $('body');
-    $document_body.scrollator({
-        // custom_class: 'body_scroller', // A class to be added to this scrollator lane
-        appendTo: 'body', // jQuery selector defining where to append scrollator elements
-        preventPropagation: false, // If true, there will be no propagation to parent scrollator elements
-        minHandleHeightPercent: 10 // Minimum height of handle, in percent
-        // zIndex: '99999999'
-    });
+    // var $document_body = $('body');
+    // $document_body.scrollator({
+    //     // custom_class: 'body_scroller', // A class to be added to this scrollator lane
+    //     appendTo: 'body', // jQuery selector defining where to append scrollator elements
+    //     // preventPropagation: false, // If true, there will be no propagation to parent scrollator elements
+    //     // minHandleHeightPercent: 10 // Minimum height of handle, in percent
+    //     // zIndex: '99999999'
+    // });
 
     $("#tabs").tabs();
     // var nice = $("html").niceScroll({cursorborder:"", background:"rgba(20,20,20,0.3)", cursorwidth:"12px", cursorcolor:"#17A2B8", boxzoom:true});  // The document page (body)
