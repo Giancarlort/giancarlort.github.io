@@ -1,0 +1,215 @@
+body {
+    background-color: #394657;
+}
+
+ul.centro {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-width: 0;
+    border-bottom-width: 1px;
+}
+
+.box-tab {
+    width: 80%;
+    margin: auto;
+}
+
+.box-tab > .card {
+    border-bottom: 5px solid #156080;
+}
+.box-contenedor {
+    background-color: #282828;
+}
+
+.top-fondo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 280px;
+}
+
+.avatar {
+    position: absolute;
+    border: 6px solid #394657;
+    width: 22%;
+    border-radius: 50%;
+}
+
+.nombre {
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    bottom: 5px;
+    right: 10px;
+}
+
+ul li strong {
+    width: 100px;
+    display: inline-block;
+    font-weight: normal;
+}
+
+li > h3 {
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+
+h3.linea-titulo {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+li h5{
+    display: inline-block;
+    width: 85%;
+    font-weight: bold;
+}
+
+li span{
+    text-align: right;
+}
+
+.list-group-item {
+    border: 0;
+    padding: .5rem 1.25rem;
+}
+
+.text-resumen {
+    color: #394657;
+}
+
+.bg-morado{
+    background-color: #5a4090;
+}
+
+.bg-gris{
+    background-color: #99A3A4;
+}
+
+.icon-box {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icon-title {
+    display: block;
+    padding-top: 15px;
+}
+
+.icon-red-fa {
+    border: 1px solid #aaaaaa;
+    border-radius: 3px;
+    padding: 8px 12px;
+}
+
+.icon-red-fa:hover {
+    background-color: #3B5998;
+    color: #fff;
+    border: 1px solid #3B5998;
+}
+
+.icon-red-tw {
+    border: 1px solid #aaaaaa;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+.icon-red-tw:hover {
+    background-color: #00ACEE;
+    color: #fff;
+    border: 1px solid #00ACEE;
+}
+
+.icon-red-go {
+    border: 1px solid #aaaaaa;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+.icon-red-go:hover {
+    background-color: #DD4B39;
+    color: #fff;
+    border: 1px solid #DD4B39;
+}
+
+.icon-red-li {
+    border: 1px solid #aaaaaa;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+.icon-red-li:hover {
+    background-color: #0077B5;
+    color: #fff;
+    border: 1px solid #0077B5;
+}
+
+.icon-red-yo {
+    border: 1px solid #aaaaaa;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+.icon-red-yo:hover {
+    background-color: #E62117;
+    color: #fff;
+    border: 1px solid #E62117;
+}
+
+.icon-circulo {
+    background-color: #3cb6dd;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.progress-title{
+    font-size: 12px;
+    font-weight: 700;
+    color: #011627;
+    margin: 0 0 3px;
+    padding-bottom: 0;
+}
+
+.progress{
+    background: #cbcbcb;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 15px;
+    overflow: visible;
+}
+
+.progress .progress-bar{
+    box-shadow: none;
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s;
+}
+
+.progress-value {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+/*.progress .progress-value{
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    position: absolute;
+    top: -20px;
+    right: 0;
+}*/
+
+@-webkit-keyframes animate-positive{
+    0% { width: 0; }
+}
+@keyframes animate-positive{
+    0% { width: 0; }
+}
